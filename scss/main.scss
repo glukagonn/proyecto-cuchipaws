@@ -1,11 +1,18 @@
-
+body{
+    font-family: sans-serif;
+    margin: 0;
+    font-size: x-large;
+}
+a{
+    text-decoration: none;
+    color: black;
+    }
 header{
-    background-color:#141414;
+    background-color: #ffffff;
     justify-content: space-between;
     display: flex;
     align-items: center;
-    padding: 15px 20px;
-
+    padding: 1px 30px;
     img{
         width: 200px;
 
@@ -13,7 +20,6 @@ header{
     nav{
         ul{
             font-family: Georgia, 'Times New Roman', Times, serif;
-            
             font-size: x-large;
             list-style: none;
             display: flex;
@@ -23,20 +29,62 @@ header{
     }
 }
 main{
+    background-color: rgb(176, 179, 139);
     width: 100%;
-    height: 300px;
-    background-color: #3c3c3c;
+    height:100%;
+    padding: 100px;
     .contenedor-flex{
 
 
         justify-content: space-evenly ;
         display: flex;
-        height: 500px;
+        height: auto;
         flex-wrap: wrap;
         gap: 40px;
 
+    }
+    .contenedor-flex2{
+
+        justify-content: space-evenly ;
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 40px;
 
     }
+
+    .form{
+        width: 400px;
+        background: #f5cfcf;
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border: 4px;
+        color: white;
+        box-shadow: 7px 13px 37px;
+    }
+    .controls{
+        width: 100%;
+        background: #f5cfcf;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-size: 10px;
+
+    }
+    .form .boton{
+        width: 100%;
+        background: #1f53c5;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+    }
+
+
+    
     .card{
         width: 350px;
         height: 400px;
@@ -45,28 +93,37 @@ main{
             height: 300px;
         }
     }
+    .card2{
+        width: 350px;
+        height: 400px;
+        img{
+            width: 100%;
+            height: 300px;
+        }
+    }
+    }
     .card-text{
         display: flex;
         flex-direction: row;
-        justify-content: left;
+        justify-content: center;
         align-items: left;
-        font-family: 'Times New Roman', Times, serif;
-        color: yellow;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    
+        font-family: "Times New Roman", Times, serif;
+        color: rgb(0, 0, 0);
         font-size: x-large;
         list-style: none;
         gap: 30px;
     }
-}
+
+
 footer{
-    background-color:#141414;
+    background-color: #f5cfcf;
+    flex-direction: row;
     justify-content: left;
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 15px 15px;
     gap: 40px;
-
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 @media screen and (max-width: 768px) {
     .card {
