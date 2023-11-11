@@ -54,6 +54,10 @@ main{
     }
 
     .form{
+        height: auto;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: left;
         width: 400px;
         background: #f5cfcf;
         padding: 30px;
